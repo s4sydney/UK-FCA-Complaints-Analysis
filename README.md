@@ -7,10 +7,7 @@ H2 2024, H1 2025, and H2 2025.
 ---
 
 ## Overview
-
-This project investigates complaint patterns across UK financial services
-firms to answer four core questions:
-
+FCA complaints data is used by UK financial firms, regulators, and analysts to benchmark customer outcomes across the industry.This project investigates complaint patterns across UK financial services firms to answer four core questions:
 - Which firms receive the most complaints, and are things getting better
   or worse over time?
 - Which firms admit fault most often (highest uphold rates)?
@@ -131,7 +128,6 @@ connecting directly to the PostgreSQL database:
 - Year-on-year complaint change: H2 2024 vs H2 2025
 - Average uphold rate by product category
   
-export: `outputs/fca_complaints_dashboard.pdf`
 ![FCA Complaints Dashboard](outputs/fca_complaints_dashboard.png)
 
 ---
